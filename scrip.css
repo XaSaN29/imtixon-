@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: #0D0939;
+    height: 170px;
+}
+.navbar_text{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 200px;
+   color: aliceblue;
+}
+
+.navbar_logo{
+    display: flex;
+    gap: 11px;
+}
+.navbar_logo_h{
+color: #FFF;
+font-family: Abhaya Libre SemiBold;
+}
+
+.navbar_text_p_div{
+    display: flex;
+    padding-left: 127px;
+    gap: 25px;
+}
+
+.navbar_text_p{
+color: rgba(255, 255, 255, 0.81);
+text-align: center;
+font-family: Abhaya Libre SemiBold;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+}
+
+.navbar_btn_div{
+    padding-left: 24px;
+    gap: 15px;
+}
+
+.navbar_btn_bir{
+width: 122px;
+height: 44px;
+flex-shrink: 0;
+
+background-color: #0D0939;
+border-radius: 60px;
+border: 2px solid #9610FF;
+box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+
+color: #FFF;
+text-align: center;
+font-family: Abhaya Libre SemiBold;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+}
+
+.navbar_btn_ikki{
+width: 122px;
+height: 44px;
+flex-shrink: 0;
+
+background-color: #0D0939;
+border-radius: 60px;
+border: 2px solid #456AE7;
+box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+
+color: #FFF;
+text-align: center;
+font-family: Abhaya Libre SemiBold;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; 
+}
+
+/* now */
+
+.now{
+    display: flex;
+    gap: 9px;
+    padding-left: 200px;
+    padding-top: 25px;
+}
+
+.now_p_bir{
+color: #5B41F5;
+
+text-align: center;
+font-family: Abhaya Libre SemiBold;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+text-decoration-line: underline;
+}
+
+.now_img{
+width: 10px;
+height: 10px;
+}
+
+.now_p_ikki{
+color: #FFF;
+text-align: center;
+font-family: Abhaya Libre SemiBold;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+}
