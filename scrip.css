@@ -91,7 +91,6 @@ font-style: normal;
 font-weight: 600;
 line-height: 26px; 
 }
-
 /* now */
 
 .now{
@@ -126,4 +125,71 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: 26px;
+}
+
+/* MONE */
+
+.mone{
+    padding-top: 32px;
+    padding-left: 200px;
+}
+
+.mone_div{
+ width: 1138px;
+height: 294px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #470cafe3;
+}
+
+.mone_title_h_img{
+    display: flex;
+    gap: 40px;
+}
+.mone_title_h_div{
+padding-top: 50px;
+color: #FFF;
+}
+.mone_title_h{
+width: 837px;
+height: 58px;
+flex-shrink: 0;
+text-align: center;
+font-family: Abhaya Libre ExtraBold;
+font-size: 128px;
+font-style: normal;
+font-weight: 800;
+line-height: 52.5px; 
+text-transform: uppercase;
+}
+
+/* Swipor */
+
+.swipor{
+    padding-top: 25px;
+    padding-left: 200px;
+}
+.swipor_div{
+    display: flex;
+    gap: 20px;
+}
+.carousel {
+width: 755px;
+height: 407px;
+flex-shrink: 0;
+}
+
+.swipor_mini_img{
+width: 367px;
+height: 194px;
+flex-shrink: 0;
+}
+.swipor_mini_img_ikki{
+width: 367px;
+height: 194px;
+flex-shrink: 0;
+}
+
+.swipor_mini_img_ikki_div{
+    padding-top: 18px;
 }
